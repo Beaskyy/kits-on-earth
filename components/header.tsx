@@ -15,6 +15,13 @@ const Header = () => {
         </div>
         <div>Learn More</div>
       </div>
+
+      {/* Mobile menu */}
+      <div className="relative flex justify-between items-center">
+        <div>logo</div>
+        <div>button</div>
+        <div className="absolute"></div>
+      </div>
     </main>
   );
 };
