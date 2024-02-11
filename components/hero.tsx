@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <main className="lg:px-40 px-4">
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-8 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-20">
         <div className="">
           <h1 className="text-4xl lg:text-7xl font-bold">
             Empowering individuals to make a positive impact

@@ -18,27 +18,31 @@ const Features = () => {
         </div>
         <div className="flex items-center justify-center gap-10">
           <Image
-            src="/images/hero-img.png"
+            src="/images/recycle.jpg"
             alt="exchange"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
           />
         </div>
-        <div className="flex items-center justify-center gap-10">
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-20">
+        <div className="flex items-center justify-center gap-10 order-last lg:order-first">
           <Image
             src="/images/hero-img.png"
             alt="exchange"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
           />
         </div>
-        <div>
+        <div className="">
           <h4 className="text-xl lg:text-3xl font-semibold">Get rewarded</h4>
           <p className="max-w-md mt-4 text-slate-600">
             Use our app to find nearby drop-off locations or schedule a pick-up.
             Earn points for every item you contribute.
           </p>
         </div>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
           <h4 className="text-xl lg:text-3xl font-semibold">
             Redeem your rewards
@@ -74,8 +78,8 @@ const Features = () => {
           <Image
             src="/images/hero-img.png"
             alt="exchange"
-            width={400}
-            height={400}
+            width={600}
+            height={600}
           />
         </div>
       </div>
