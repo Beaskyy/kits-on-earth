@@ -19,10 +19,10 @@ const Header = () => {
               <Link href="/events">Events</Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/campaigns">Campaigns</Link>
             </li>
             <li>
-              <Link href="/contact-us">Contact Us</Link>
+              <Link href="/community">Community</Link>
             </li>
           </ul>
         </div>
@@ -55,10 +55,10 @@ const Header = () => {
               <Link href="/events">Events</Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/campaigns">Campaigns</Link>
             </li>
             <li>
-              <Link href="/contact-us">Contact Us</Link>
+              <Link href="/community">Community</Link>
             </li>
           </ul>
         </div>
