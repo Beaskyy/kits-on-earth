@@ -20,15 +20,16 @@ const Features = () => {
           <Image
             src="/images/recycle.jpg"
             alt="exchange"
-            width={600}
-            height={600}
+            width={400}
+            height={400}
+            className="rounded-3xl"
           />
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-20">
         <div className="flex items-center justify-center gap-10 order-last lg:order-first">
           <Image
-            src="/images/reward.jpg"
+            src="/images/recycle.avif"
             alt="reward"
             width={400}
             height={400}
@@ -77,10 +78,11 @@ const Features = () => {
         </div>
         <div className="flex items-center justify-center gap-10">
           <Image
-            src="/images/hero-img.png"
+            src="/images/reward.jpg"
             alt="exchange"
-            width={600}
-            height={600}
+            width={400}
+            height={400}
+            className="rounded-3xl"
           />
         </div>
       </div>
