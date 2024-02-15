@@ -19,7 +19,7 @@ const Hero = () => {
             Save the Planet
           </button>
         </div>
-        <div className="flex justify-start items-end lg:ml-20 rounded-3xl">
+        <div className="flex justify-start items-end lg:ml-20 rounded-3xl pb-20">
           <Image
             src="/images/hero.jpg"
             alt="hero-image"
