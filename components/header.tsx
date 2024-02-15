@@ -34,7 +34,7 @@ const Header = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className="fixed lg:hidden w-full flex justify-between items-center p-4 top-0">
+      <div className="fixed lg:hidden w-full flex justify-between items-center p-4 top-0 bg-[#E8F5E9]">
         <div>Kits on Earth</div>
         <div
           className="absolute z-50 right-4 transition-all duration-300 ease-in"
