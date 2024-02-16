@@ -9,18 +9,18 @@ const Benefits = () => {
           environment.
         </p>
       </div>
-      <div className="lg:ml-40">
+      <div className="lg:ml-[250px]">
         <p className="text-2xl lg:text-4xl font-light w-full max-w-lg mt-12">
           Merchants - Access valuable recycled materials at affordable prices.
         </p>
       </div>
-      <div className="lg:ml-80">
+      <div className="lg:ml-[500px]">
         <p className="text-2xl lg:text-4xl font-light w-full max-w-lg mt-12">
           Sustainable Brands - Showcase and sell your upcycled products to a
           wider audience.
         </p>
       </div>
-      <div className="lg:ml-[480px]">
+      <div className="lg:ml-[700px]">
         <p className="text-2xl lg:text-4xl font-light w-full max-w-lg mt-12">
           Environment - Reduce landfill waste and promote resource conservation.
         </p>
