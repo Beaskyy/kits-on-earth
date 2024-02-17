@@ -25,7 +25,7 @@ const Hero = () => {
             alt="hero-image"
             width="600"
             height="600"
-            className="rounded-3xl"
+            className="rounded-3xl shadow-xl"
           />
         </div>
       </div>
