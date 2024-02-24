@@ -12,7 +12,15 @@ const AboutHero = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 m-10">
         <div className="w-full h-40 rounded-3xl bg-[#8cdbbc]"></div>
-        <div className="w-full h-80 rounded-3xl bg-[#8cdbbc]"></div>
+        <div className="w-full h-80 rounded-3xl bg-[#8cdbbc] text-center">
+          <div className="bg-slate-300 p-4 rounded-3xl">
+            <h5 className="text-xl font-medium mb-2">6 Eductional programs</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est
+              fuga omnis necessitatibus
+            </p>
+          </div>
+        </div>
         <div className="w-full h-96 rounded-3xl bg-[#8cdbbc]"></div>
         <div className="w-full h-80 rounded-3xl bg-[#8cdbbc]"></div>
         <div className="w-full h-40 rounded-3xl bg-[#8cdbbc]"></div>
