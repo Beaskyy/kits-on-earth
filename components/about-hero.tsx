@@ -11,7 +11,7 @@ const AboutHero = () => {
         </h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 m-10">
-        <div className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-20"></div>
+        <div className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px]"></div>
         <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] text-center lg:mt-8">
           <div className="p-6">
             <h5 className="text-xl font-medium mb-2">+685 trees planted</h5>
@@ -39,7 +39,7 @@ const AboutHero = () => {
           </div>
         </div>
         <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] lg:mt-8"></div>
-        <div className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-20"></div>
+        <div className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px]"></div>
       </div>
     </main>
   );
