@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { LiaBarsSolid, LiaTimesSolid } from "react-icons/lia";
@@ -9,7 +10,12 @@ const Header = () => {
   return (
     <main className=" bg-[#E8F5E9]">
       <div className="lg:flex hidden justify-between items-center w-full lg:px-40 py-5">
-        <div>Kits On Earth</div>
+        <div>
+          <Link className="flex justify-start items-center" href="/">
+            <Image src="/images/logo.png" alt="logo" width={30} height={30} />
+            <span>Kits on Earth</span>
+          </Link>
+        </div>
         <div>
           <ul className="flex justify-evenly items-center gap-x-12">
             <li>
@@ -35,7 +41,12 @@ const Header = () => {
 
       {/* Mobile menu */}
       <div className="fixed lg:hidden w-full flex justify-between items-center p-4 top-0 bg-[#E8F5E9]">
-        <div>Kits on Earth</div>
+        <div>
+          <Link href="/">
+            <Image src="/images/logo.png" alt="logo" width={20} height={20} />
+            Kits on Earth
+          </Link>
+        </div>
         <div
           className="absolute z-50 right-4 transition-all duration-300 ease-in"
           onClick={() => setShowSidebar(!showSidebar)}
