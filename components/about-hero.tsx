@@ -38,7 +38,22 @@ const AboutHero = () => {
             </p>
           </div>
         </div>
-        <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] lg:mt-8"></div>
+        <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] text-center lg:mt-8">
+          <div className="p-6">
+            <h5 className="text-xl font-medium mb-2">+685 trees planted</h5>
+            <p>
+              More than 685 trees were planted last year with the help of our
+              activities
+            </p>
+          </div>
+          <div className="bg-slate-100 py-6 px-5 translate-y-2 rounded-t-[30px] rounded-b-3xl">
+            <h5 className="text-xl font-medium mb-2">6 Eductional programs</h5>
+            <p>
+              were launched and developed by our specialists to educate young
+              people
+            </p>
+          </div>
+        </div>
         <div className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px]"></div>
       </div>
     </main>
