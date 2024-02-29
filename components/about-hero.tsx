@@ -4,7 +4,7 @@ const AboutHero = () => {
   return (
     <main>
       <div className="flex justify-center items-center mt-14">
-        <h2 className="m-4 text-6xl w-full lg:w-[556px] text-center">
+        <h2 className="m-4 text-6xl w-full lg:w-[656px] text-center">
           Join us in the{" "}
           <span className="bg-[#b0d4c0] rounded-[32px] pl-3 pb-1">fight </span>{" "}
           for the environment
@@ -13,7 +13,7 @@ const AboutHero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 m-10">
         <div
           className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px] bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('/images/plant.jpg')" }}
+          style={{ backgroundImage: "url('/images/heros.png')" }}
         ></div>
         <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] text-center lg:mt-8">
           <div className="p-6">
@@ -59,7 +59,7 @@ const AboutHero = () => {
         </div>
         <div
           className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px] bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('/images/plant.jpg')" }}
+          style={{ backgroundImage: "url('/images/heros.png')" }}
         ></div>
       </div>
     </main>
