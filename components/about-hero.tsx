@@ -13,7 +13,7 @@ const AboutHero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 m-10">
         <div
           className="w-full h-40 rounded-3xl bg-[#b4d9b7] lg:mt-[120px] bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('/images/heros.png')" }}
+          style={{ backgroundImage: "url('/images/ecology.jpg')" }}
         ></div>
         <div className="w-full h-80 rounded-3xl bg-[#b4d9b7] text-center lg:mt-8">
           <div className="p-6">
