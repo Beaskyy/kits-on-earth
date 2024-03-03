@@ -3,41 +3,41 @@ import { IoSunny } from "react-icons/io5";
 const AboutFeatures = () => {
   return (
     <>
-      <div className="bg-emerald-50 py-2 lg:flex hidden  justify-center items-center gap-4">
-        <div className="flex justify-center items-center gap-2 truncate whitespace-nowrap">
-          <p>Green the planet </p>
+      <div className="bg-emerald-50 py-2 lg:flex hidden  justify-center items-center gap-4 mt-40">
+        <div className="flex justify-center items-center gap-2">
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
         <div className="flex justify-center items-center gap-2">
-          <p>Green the planet </p>
+          <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
       </div>
