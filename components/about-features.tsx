@@ -44,15 +44,15 @@ const AboutFeatures = () => {
       </div>
       <div className="container mx-auto">
         <div className="flex justify-center items-center w-full mt-20">
-          <h2 className="text-5xl font-normal text-center  max-w-[800px]">
+          <h2 className="lg:text-5xl text-2xl font-normal text-center  max-w-[800px]">
             We strive to protect nature for future generations
           </h2>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:p-40">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:p-40 p-4 gap-8">
         <div className="flex flex-col justify-center">
-          <h4 className="text-2xl font-semibold mb-3">
+          <h4 className="lg:text-2xl text-lg font-semibold mb-3">
             Lorem ipsum dolor sit.
           </h4>
           <p className="text-slate-500">
@@ -65,8 +65,8 @@ const AboutFeatures = () => {
         </div>
         <div className="flex items-center justify-center">
           <Image
-            src="/images/ecology.jpg"
-            alt=""
+            src="/images/heros.png"
+            alt="plant"
             width={400}
             height={400}
             className="rounded-xl"
