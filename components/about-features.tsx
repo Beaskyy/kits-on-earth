@@ -50,7 +50,7 @@ const AboutFeatures = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:p-40 p-4 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-40 lg:py-10 p-4 gap-8">
         <div className="flex flex-col justify-center">
           <h4 className="lg:text-2xl text-lg font-semibold mb-3">
             Lorem ipsum dolor sit.
@@ -72,6 +72,15 @@ const AboutFeatures = () => {
             className="rounded-xl"
           />
         </div>
+      </div>
+      <div className="lg:px-40 p-4">
+        <p className="border border-slate-800 w-fit py-1 px-4 rounded-full">
+          Our Projects
+        </p>
+        <p className="mt-4 text-6xl font-light text-slate-600 leading-[72px]">
+          We hold various events, campaigns and raise funds for implementation
+          of projects to preserve <span className="bg-[#E8F5E9] px-4 rounded-full">the environment</span>
+        </p>
       </div>
     </>
   );

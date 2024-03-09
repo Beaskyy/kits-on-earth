@@ -6,7 +6,7 @@ const AboutHero = () => {
       <div className="flex justify-center items-center mt-24">
         <h2 className="m-4 text-6xl w-full lg:w-[656px] text-center">
           Join us in the{" "}
-          <span className="bg-[#b0d4c0] rounded-[32px] pl-3 pb-1">fight </span>{" "}
+          <span className="bg-[#E8F5E9] rounded-[32px] pl-3 pb-1">fight </span>{" "}
           for the environment
         </h2>
       </div>
