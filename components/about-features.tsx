@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { IoSunny } from "react-icons/io5";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const AboutFeatures = () => {
   return (
@@ -77,10 +78,52 @@ const AboutFeatures = () => {
         <p className="border border-slate-800 w-fit py-1 px-4 rounded-full">
           Our Projects
         </p>
-        <p className="mt-4 text-6xl font-light text-slate-600 leading-[72px]">
+        <p className="mt-4 lg:text-6xl font-light text-slate-600 lg:leading-[72px]">
           We hold various events, campaigns and raise funds for implementation
-          of projects to preserve <span className="bg-[#E8F5E9] px-4 rounded-full">the environment</span>
+          of projects to preserve{" "}
+          <span className="bg-[#E8F5E9] px-4 rounded-full whitespace-nowrap">
+            the environment
+          </span>
         </p>
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 lg:p-40 gap-4">
+        <div className="col-span-2 bg-gray-100 rounded-xl p-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
+            <div>
+              <h4 className="text-3xl lg:w-80 mb-4 font-light">
+                Cleaning up the Sango River
+              </h4>
+              <p className="lg:w-72 text-md mb-7">
+                Our team is actively working to clean up sango river from
+                pollution in order to restore its natural beauty
+              </p>
+              <button className="flex justify-center items-center gap-4">
+                Read more{" "}
+                <span className="flex justify-center items-center bg-white w-8 h-8 rounded-full p-2">
+                  <BsArrowUpRight />
+                </span>
+              </button>
+            </div>
+            <div>
+              <Image
+                src="/images/heros.png"
+                alt="plant"
+                width={400}
+                height={400}
+                className="rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#E8F5E9] rounded-xl p-8 flex flex-col justify-between items-start">
+          <h4 className="bg-white rounded-xl p-2 w-fit">Forest gardens</h4>
+          <div className="flex justify-between w-full items-center gap-4">
+            <button>Read more</button>
+            <span className="flex justify-center items-center bg-white w-8 h-8 rounded-full p-2">
+              <BsArrowUpRight />
+            </span>
+          </div>
+        </div>
       </div>
     </>
   );
