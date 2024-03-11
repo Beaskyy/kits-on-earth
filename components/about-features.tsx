@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { IoSunny } from "react-icons/io5";
 import { BsArrowUpRight } from "react-icons/bs";
+import Footer from "./footer";
 
 const AboutFeatures = () => {
   return (
@@ -125,6 +126,7 @@ const AboutFeatures = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
