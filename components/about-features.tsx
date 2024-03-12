@@ -133,7 +133,10 @@ const AboutFeatures = () => {
           </h1>
         </div>
 
-        <div className="w-80 h-80 rounded-full bg-emerald-50"></div>
+        <div
+          className="w-80 h-80 rounded-full bg-emerald-50 bg-no-repeat bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/sustainable.jpg')" }}
+        ></div>
         <div>
           <h1 className="lg:text-8xl text-4xl font-extrabold uppercase">
             Campaign
