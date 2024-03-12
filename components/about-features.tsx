@@ -126,6 +126,20 @@ const AboutFeatures = () => {
           </div>
         </div>
       </div>
+      <div className="flex lg:flex-row flex-col justify-between items-center lg:px-40 gap-4 w-full">
+        <div>
+          <h1 className="lg:text-7xl text-4xl font-extrabold text-green-500 uppercase">
+            Green
+          </h1>
+        </div>
+
+        <div className="w-80 h-80 rounded-full bg-emerald-50"></div>
+        <div>
+          <h1 className="lg:text-8xl text-4xl font-extrabold uppercase">
+            Campaign
+          </h1>
+        </div>
+      </div>
       <Footer />
     </>
   );
