@@ -143,7 +143,7 @@ const AboutFeatures = () => {
           </h1>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
