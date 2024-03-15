@@ -143,6 +143,15 @@ const AboutFeatures = () => {
           </h1>
         </div>
       </div>
+      <div className="flex justify-center items-center lg:p-40">
+        <div className="lg:w-[800px] h-80 bg-emerald-50 rounded-[40px] bg-center bg-no-repeat bg-cover">
+          <div className="flex items-center justify-center h-full bg-center bg-no-repeat bg-cover" style={{backgroundImage: "url('/images/heros.png)"}}>
+            <div className="flex items-center justify-center bg-white w-24 h-24 rounded-full ">
+            <h4 className="text-center">See all works</h4>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
