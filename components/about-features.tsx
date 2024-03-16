@@ -128,24 +128,24 @@ const AboutFeatures = () => {
       </div>
       <div className="flex lg:flex-row flex-col justify-between items-center lg:px-40 gap-4 w-full">
         <div>
-          <h1 className="lg:text-7xl text-4xl font-extrabold text-green-500 uppercase">
+          <h1 className="lg:text-6xl text-4xl font-extrabold text-green-500 uppercase">
             Green
           </h1>
         </div>
 
         <div
-          className="w-80 h-80 rounded-full bg-emerald-50 bg-no-repeat bg-cover bg-center"
+          className="w-60 h-60 rounded-full bg-emerald-50 bg-no-repeat bg-cover bg-center"
           style={{ backgroundImage: "url('/images/sustainable.jpg')" }}
         ></div>
         <div>
-          <h1 className="lg:text-8xl text-4xl font-extrabold uppercase">
+          <h1 className="lg:text-7xl text-4xl font-[900] uppercase">
             Campaign
           </h1>
         </div>
       </div>
       <div className="flex justify-center items-center lg:p-40">
         <div className="lg:w-[800px] h-80 bg-emerald-50 rounded-[40px] bg-center bg-no-repeat bg-cover">
-          <div className="flex items-center justify-center h-full bg-center bg-no-repeat bg-cover" style={{backgroundImage: "url('/images/heros.png)"}}>
+          <div className="flex items-center justify-center h-full bg-center bg-no-repeat bg-cover rounded-3xl" style={{ backgroundImage: "url('/images/sustainable.jpg')" }}>
             <div className="flex items-center justify-center bg-white w-24 h-24 rounded-full ">
             <h4 className="text-center">See all works</h4>
             </div>
