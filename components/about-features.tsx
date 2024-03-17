@@ -6,7 +6,8 @@ import Footer from "./footer";
 const AboutFeatures = () => {
   return (
     <>
-      <div className="bg-emerald-50 py-2 lg:flex hidden  justify-center items-center gap-4 mt-40">
+      <div className="w-full">
+      <div className="bg-emerald-50 py-2 lg:flex hidden  justify-center items-center gap-4 mt-40 overflow-x-auto">
         <div className="flex justify-center items-center gap-2">
           <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
@@ -43,6 +44,7 @@ const AboutFeatures = () => {
           <p className="whitespace-nowrap">Green the planet </p>
           <IoSunny />
         </div>
+      </div>
       </div>
       <div className="container mx-auto">
         <div className="flex justify-center items-center w-full mt-20">
@@ -87,8 +89,9 @@ const AboutFeatures = () => {
           </span>
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 lg:p-40 gap-4">
-        <div className="col-span-2 bg-gray-100 rounded-xl p-8">
+      <div className="w-full">
+      <div className="flex lg:pl-40 lg:py-40 gap-4 overflow-x-auto">
+        <div className="lg:min-w-[900px] bg-gray-100 rounded-xl p-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
             <div>
               <h4 className="text-3xl lg:w-80 mb-4 font-light">
@@ -116,8 +119,8 @@ const AboutFeatures = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#E8F5E9] rounded-xl p-8 flex flex-col justify-between items-start">
-          <h4 className="bg-white rounded-xl p-2 w-fit">Forest gardens</h4>
+        <div className="bg-[#E8F5E9] min-w-80 rounded-xl p-8 flex flex-col justify-between items-start">
+          <h4 className="bg-white rounded-xl p-2 w-fit whitespace-nowrap">Forest gardens</h4>
           <div className="flex justify-between w-full items-center gap-4">
             <button>Read more</button>
             <span className="flex justify-center items-center bg-white w-8 h-8 rounded-full p-2">
@@ -125,6 +128,25 @@ const AboutFeatures = () => {
             </span>
           </div>
         </div>
+        <div className="bg-[#E8F5E9] min-w-80 rounded-xl p-8 flex flex-col justify-between items-start">
+          <h4 className="bg-white rounded-xl p-2 w-fit whitespace-nowrap">Forest gardens</h4>
+          <div className="flex justify-between w-full items-center gap-4">
+            <button>Read more</button>
+            <span className="flex justify-center items-center bg-white w-8 h-8 rounded-full p-2">
+              <BsArrowUpRight />
+            </span>
+          </div>
+        </div>
+        <div className="bg-[#E8F5E9] min-w-80 rounded-xl p-8 flex flex-col justify-between items-start">
+          <h4 className="bg-white rounded-xl p-2 w-fit whitespace-nowrap">Forest gardens</h4>
+          <div className="flex justify-between w-full items-center gap-4">
+            <button>Read more</button>
+            <span className="flex justify-center items-center bg-white w-8 h-8 rounded-full p-2">
+              <BsArrowUpRight />
+            </span>
+          </div>
+        </div>
+      </div>
       </div>
       <div className="flex lg:flex-row flex-col justify-between items-center lg:px-40 gap-4 w-full">
         <div>
@@ -143,8 +165,8 @@ const AboutFeatures = () => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-center items-center lg:p-40">
-        <div className="lg:w-[800px] h-80 bg-emerald-50 rounded-[40px] bg-center bg-no-repeat bg-cover">
+      <div className="flex justify-center items-center lg:p-40 p-4">
+        <div className="lg:w-[800px] w-full h-80 bg-emerald-50 rounded-[40px] bg-center bg-no-repeat bg-cover">
           <div className="flex items-center justify-center h-full bg-center bg-no-repeat bg-cover rounded-3xl" style={{ backgroundImage: "url('/images/sustainable.jpg')" }}>
             <div className="flex items-center justify-center bg-white w-24 h-24 rounded-full ">
             <h4 className="text-center">See all works</h4>
