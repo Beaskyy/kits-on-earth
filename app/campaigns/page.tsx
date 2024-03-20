@@ -10,7 +10,6 @@ const Campaigns = () => {
       <Header />
       <AboutHero />
       <AboutFeatures />
-      <Footer />
     </div>
   )
 }
