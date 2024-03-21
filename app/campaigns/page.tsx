@@ -8,8 +8,7 @@ const Campaigns = () => {
   return (
     <div>
       <Header />
-      <AboutHero />
-      <AboutFeatures />
+      
     </div>
   )
 }
